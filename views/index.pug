@@ -1,0 +1,26 @@
+extends layout
+
+block content
+  h1= title
+  p 
+    input#input-name(type="text" placeholder="Name" autofocus)
+  p
+    input#input-task(type="text" placeholder="Task")
+  p
+    input#submit-data(type="button", value="Submit")
+
+  p#response(style={color: 'green'})
+
+  p 
+    input#search-name(type="text" placeholder="Search name")
+  p   
+    input#search(type="button", value="Search")
+    
+  p#search-result
+  p#delete-error
+
+  ul#todos
+  
+
+
+
